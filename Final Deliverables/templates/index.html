@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Flaskimio</title>
+<style>
+body {
+background: linear-gradient(
+                     rgba(20,20,20, .75), 
+                     rgba(20,20,20, .75)),
+                     url( 'https://images.collegedunia.com/public/image/1a09101fad610b0e76351db713cf8a4b.png?tr=w-800,h-533,c-force');
+                     background-repeat: no-repeat;
+                     background-size: cover;
+}
+.container {
+  border: 2px solid #ccc;
+  padding: 10px;
+  width: 20em;
+height:21em;
+background-color:white;
+}
+
+
+.hello{
+opacity: 0.5;
+}
+</style>
+</head>
+
+<body>
+<center><p style="font-size:60px;color:white;">University Admit Eligibility Predictor</p></center>
+<form action="/val" method="post"><center>
+  <label for="GRE Score" style="font-size:15px;color:white;" >GRE Score:</label>&nbsp;
+  <input type="number" id="GRE Score" name="GRE Score"><br><br><br>
+
+
+  <label for="TOEFL Score" style="font-size:15px;color:white;">TOEFL Score:</label>&nbsp;
+  <input type="number" id="TOEFL Score" name="TOEFL Score">
+<br>
+<br>
+<br>
+  <label for="University Rating" style="font-size:15px;color:white;">University Rating:</label>&nbsp;
+  <input type="number" id="University Rating" name="University Rating">
+<br>
+<br>
+<br>
+  <label for="SOP" style="font-size:15px;color:white;">SOP:</label>&nbsp;
+  <input type="number" id="SOP" name="SOP">
+<br>
+<br>
+<br>
+  <label for="LOR" style="font-size:15px;color:white;">LOR:</label>&nbsp;
+  <input type="number" id="LOR" name="LOR">
+<br>
+<br>
+<br>
+  <label for="CGPA" style="font-size:15px;color:white;">CGPA:</label>&nbsp;
+  <input type="number" id="CGPA" name="CGPA">
+<br>
+<br>
+<br>
+  <label for="Research" style="font-size:15px;color:white;">Research:</label>&nbsp;
+  <input type="number" id="Research" name="Research">
+<br>
+<br>
+<br>
+  
+<br></center>
+  <center><button type="submit">Check</button></center>
+</form>
+</body>
+</html>
